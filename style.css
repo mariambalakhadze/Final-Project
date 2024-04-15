@@ -1,0 +1,296 @@
+@font-face {
+    font-family: 'Antonio';
+    src: url(/assets/fonts/gNMEW3NwSYq_9WD3yHQiFQ.woff2);
+}
+@font-face {
+    font-family: 'Leagua Spartan';
+    src: url(/assets/fonts/kJEqBuEW6A0lliaV_m88ja5TwvZwLZk.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span{display: none;}
+
+p{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    background-color: #070724;
+    background-image: url(./background-stars.svg);
+    background-size: cover;
+    max-width: 100vw;
+    height: 100vh;
+   }
+
+hr{
+    margin-top: 1px;
+    width: 100%;
+    border: 0.1px solid #ffffff4b;
+}
+
+nav div{   
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.z{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.z:hover{
+    cursor: pointer;
+}
+.p{
+    font-family: "Antonio", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;  
+}
+
+.name{
+    font-family: "Antonio" , sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+}
+header{
+    width: 100%;
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+
+}
+
+
+.topline{
+    
+    height: 5%;
+    width: 100%;
+    
+    
+}
+
+nav{
+    width: 550px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section{
+    
+    margin: 126px 165px 5px 165px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+article{    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    align-items: center;
+}
+.planets-foto{
+    width: 535px;
+    height: 484px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foto1{
+    margin: 95px 95px 95px 150px;
+    width: 290px;
+    height: 290px;
+    position: relative;
+}
+.foto2{
+    width: 165px;
+    height: 200px;
+    position: absolute;
+    left: 380px;
+    top: 480px;
+    display: none;
+}
+.planets-information{
+    width: 413px;
+    height: 465px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-right: 60px;
+    
+}
+.plan-info{
+    margin: 0;
+    padding: 0;
+    height: 260px;
+    width: 413px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.planets-info{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.geology .structure .overview{
+    height: 60%;
+    width: 413px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    flex-direction: column;
+    padding-right: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+.planet-info-number{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-around;
+    flex-direction: column;
+
+}
+.planet-name{
+    font-family: "Antonio", sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    color: #fff;
+}
+.planet-info-text{
+    font-family: "Leagua Spartan";
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff80;
+    line-height: 22px;
+}
+.source{
+    font-family: "Antonio";
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff80;
+}
+.sourceA{
+    font-family: "Antonio";
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff80;
+}
+.numbers{
+    font-family: "Antonio";
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff80;
+    margin-right: 28px;
+    margin-left: 28px;
+}
+.geology .h1, .structure .h1, .overview .h1{
+    font-family: "Antonio";
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 25px;
+}
+.geology:hover{
+    cursor: pointer;
+    background-color: #d8d8d880;
+} 
+.structure:hover{
+    cursor: pointer;
+    background-color: #d8d8d880;
+} 
+.overview:hover{
+    cursor: pointer;
+    background-color: #d8d8d880;
+}
+.art{
+    margin-top: 50px;
+    width: 250px;
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid #ffffff5d;
+}
+.geology, .structure, .overview{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #ffffff5d;
+    background-color: #ffffff00;
+}
+.text{
+    font-family: "Leagua Spartan";
+    font-size: 11px;
+    font-weight: 700;
+    color: #ffffff80;
+    margin-left: 15px;
+    line-height: 16px;
+}
+.number1{
+    font-family: "antonio";
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 15px;
+}
+.number2{
+    font-family: "antonio";
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 15px;
+}
+.number3{
+    font-family: "antonio";
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 15px;
+}
+.number4{
+    font-family: "antonio";
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 15px;
+}
+.planet-info-number1{
+    width: 100%;
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
